@@ -1,0 +1,72 @@
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  height: calc(100vh - 70px);
+  width:100%;
+}
+.Nav ul li{
+  padding: 10px 0px;
+}
+ul{
+  padding-left: 30px;
+  padding-top:30px;
+  padding-bottom:30px;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0;
+}
+.Nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+.button{
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin: 2px;
+  padding: 5px 10px;
+  font-weight: bolder;
+}
+.Nav{
+  background-color: black;
+  height: 100%;
+  width: 20%;
+}
+.first h1{
+  height: 70px;
+  padding-left: 30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color: black;
+  color: white;
+  font-weight: bolder  ;
+  margin: 0;
+  width: 100%;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.home h1{
+  font-size: 40px;
+}
+.test{
+  width: 80%;
+ 
+}
+.test h5{
+  font-weight: 500;
+  color: white;
+}
+.Result{
+  width:80vw
+}
